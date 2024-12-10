@@ -8,7 +8,10 @@ Patterns in word usage, frequency, and structure differ significantly between fa
 
 
 ## Dataset
-The use of a publicly available labeled dataset ensures transparency and reproducibility. With text data and binary labels, the dataset is well-suited for supervised learning approaches. This structure simplifies the implementation of machine learning techniques like TF-IDF and classification models. The reliance on labeled data, however, may necessitate attention to class imbalance and potential biases in the dataset.
+The project used a publicly available Fake News Detection Dataset containing labeled news articles.
+Each record includes:
+Text: The body of the news article.
+Label: A binary label indicating whether the news is fake or real.
 
 
 ## Methodology
