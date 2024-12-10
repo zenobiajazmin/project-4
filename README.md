@@ -1,12 +1,22 @@
 # Unmasking Fake News: A Machine Learning Approach
 *Project 4 - Jazmin Austin, Khalia Boone, Heather Bowman, Amie McCall*
 
+## File Library
+- **templates** | flask HTML
+- **Cleaned_News.db** | Cleaned dataset in a database
+- **ETL.ipynb** | ETL code
+- **Fake_News_Detection_using_Machine_Learning.ipynb** | original code
+- **Fake_News_Flask.py** | flask code
+- **Fake_News_Optimized.ipynb** | optimized code
+- **News.csv** | original dataset
+- **fake_news_model.pkl** | saved model
+- **tfidf_vectorizer.pkl** | saved vectorizer
+
 ## Overview
 The widespread dissemination of fake news on various platforms poses significant societal risks, leading to misinformation, societal conflicts, and loss of trust. The goal of this project is to develop a machine learning model in Python that can accurately classify news as either real or fake, aiding in the fight against misinformation.
 
 ## Hypothesis
 Patterns in word usage, frequency, and structure differ significantly between fake and real news, enabling effective classification through text-based features.
-
 
 ## Dataset
 The project used a publicly available [Fake News Detection Dataset](https://www.kaggle.com/datasets/subho117/fake-news-detection-using-machine-learning) containing labeled news articles.
@@ -48,8 +58,8 @@ The methodology demonstrates a well-thought-out pipeline for fake news detection
 
 ### Model Training, Evaluation, and Prediction
 - The project adopts a systematic approach:
-  - Baseline models (Logistic Regression and Decision Tree) are trained and evaluated in **Fake_News_Detection_using_Machine_Learning.ipynb**.
-  - Iterative optimization and hyperparameter tuning in **Fake_News_Optimized.ipynb** improve model performance.
+  - Baseline models (Logistic Regression and Decision Tree) are trained and evaluated in **Fake_News_Detection_using_Machine_Learning.ipynb** resulting in 99% accuracy.
+  - Iterative optimization and hyperparameter tuning in **Fake_News_Optimized.ipynb** improve model performance resulting in 100% accuracy.
   - Evaluation metrics, including accuracy, precision, recall, F1-score, and confusion matrices, ensure comprehensive assessment.
 - In **Fake_News_Flask.py**, a pre-trained model and TF-IDF vectorizer are deployed for real-time prediction:
   - User input is vectorized, and predictions are rendered with detailed feedback on the web interface.
