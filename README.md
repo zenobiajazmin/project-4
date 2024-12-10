@@ -8,7 +8,7 @@ Patterns in word usage, frequency, and structure differ significantly between fa
 
 
 ## Dataset
-The project used a publicly available Fake News Detection Dataset containing labeled news articles.
+The project used a publicly available [Fake News Detection Dataset](https://www.kaggle.com/datasets/subho117/fake-news-detection-using-machine-learning) containing labeled news articles.
 Each record includes:
 Text: The body of the news article.
 Label: A binary label indicating whether the news is fake or real.
