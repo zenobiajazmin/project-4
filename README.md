@@ -60,14 +60,6 @@ The methodology demonstrates a well-thought-out pipeline for fake news detection
   - Results, including prediction probabilities and classification as "Real News" or "Fake News," are displayed on the homepage.
   - The app also calculates and updates metrics for the percentages of fake and real news predictions.
 
-## Expected Outcomes
-
-### The deliverables include:
-
-- A trained and tested model with high classification accuracy.
-- Visualizations that shed light on fake news patterns.
-- A reusable pipeline, providing value beyond this specific use case.
-- These outcomes align with the stated objectives, promising a practical solution to fake news detection.
 
 ## Conclusion
 Fake news articles have distinct linguistic patterns that can help machine learning models classify them, but these patterns often overlap with those in real news.
