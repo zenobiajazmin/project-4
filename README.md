@@ -19,20 +19,20 @@ The methodology demonstrates a well-thought-out pipeline for fake news detection
 
 ### Importing Libraries and Datasets
 - The project employs a diverse set of Python libraries to equip the pipeline for various tasks:
-  - Data Manipulation: Pandas for handling datasets across all files.
-  - Visualization: Seaborn and Matplotlib for creating insightful visualizations.
-  - Machine Learning: Scikit-learn for building and evaluating models.
-  - Text Processing: NLTK for tokenization and stopword removal, and WordCloud for visual representation.
-  - Frameworks: Flask for creating an interactive web application.
-  - Storage and Retrieval: SQLite for managing data in a structured database format.
-  - Pretrained Model Integration: Joblib in the Flask app for loading pre-trained models.
-- The ETL process in ETL.ipynb cleans and prepares the dataset, storing it in an SQLite database. Subsequent notebooks (Fake_News_Detection_using_Machine_Learning.ipynb and Fake_News_Optimized.ipynb) retrieve this data for processing and analysis.
+  - **Data Manipulation:** Pandas for handling datasets across all files.
+  - **Visualization:** Seaborn and Matplotlib for creating insightful visualizations.
+  - **Machine Learning:** Scikit-learn for building and evaluating models.
+  - **Text Processing:** NLTK for tokenization and stopword removal, and WordCloud for visual representation.
+  - **Frameworks:** Flask for creating an interactive web application.
+  - **Storage and Retrieval:** SQLite for managing data in a structured database format.
+  - **Pretrained Model Integration:** Joblib in the Flask app for loading pre-trained models.
+- The ETL process in **ETL.ipynb** cleans and prepares the dataset, storing it in an SQLite database. Subsequent notebooks (**Fake_News_Detection_using_Machine_Learning.ipynb** and **Fake_News_Optimized.ipynb**) retrieve this data for processing and analysis.
 
 ### Data Preprocessing
 - Preprocessing steps are carefully designed to standardize and prepare the text data for analysis:
   - Handling missing values and duplicates ensures the dataset's integrity.
   - Text normalization techniques, such as special character removal, stopword elimination, and stemming/lemmatization, reduce noise and enhance model input quality.
-  - In Fake_News_Optimized.ipynb, preprocessing includes advanced methods to ensure higher efficiency and better performance.
+  - In **Fake_News_Optimized.ipynb**, preprocessing includes advanced methods to ensure higher efficiency and better performance.
 
 ### Text Analysis and Visualization
 - Exploration of word patterns between fake and real news articles provides valuable insights:
@@ -42,20 +42,20 @@ The methodology demonstrates a well-thought-out pipeline for fake news detection
 
 ### Converting Text into Vectors
 - Numerical representation of text is achieved using robust methods:
-  - TF-IDF Vectorization: Captures the importance of words relative to the dataset.
+  - **TF-IDF Vectorization:** Captures the importance of words relative to the dataset.
   - These methods provide structured input for machine learning models, facilitating effective classification.
 
 ### Model Training, Evaluation, and Prediction
 - The project adopts a systematic approach:
-  - Baseline models (Logistic Regression and Decision Tree) are trained and evaluated in Fake_News_Detection_using_Machine_Learning.ipynb.
-  - Iterative optimization and hyperparameter tuning in Fake_News_Optimized.ipynb improve model performance.
+  - Baseline models (Logistic Regression and Decision Tree) are trained and evaluated in **Fake_News_Detection_using_Machine_Learning.ipynb**.
+  - Iterative optimization and hyperparameter tuning in **Fake_News_Optimized.ipynb** improve model performance.
   - Evaluation metrics, including accuracy, precision, recall, F1-score, and confusion matrices, ensure comprehensive assessment.
-- In Fake_News_Flask.py, a pre-trained model and TF-IDF vectorizer are deployed for real-time prediction:
+- In **Fake_News_Flask.py**, a pre-trained model and TF-IDF vectorizer are deployed for real-time prediction:
   - User input is vectorized, and predictions are rendered with detailed feedback on the web interface.
   - Counters track the proportions of fake and real news predictions dynamically.
 
 ### Flask Application
-- Fake_News_Flask.py complements the machine learning pipeline with an interactive web application:
+- **Fake_News_Flask.py** complements the machine learning pipeline with an interactive web application:
   - Users can input text directly into the interface.
   - Results, including prediction probabilities and classification as "Real News" or "Fake News," are displayed on the homepage.
   - The app also calculates and updates metrics for the percentages of fake and real news predictions.
