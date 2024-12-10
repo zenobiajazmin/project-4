@@ -10,9 +10,9 @@ Patterns in word usage, frequency, and structure differ significantly between fa
 
 ## Dataset
 The project used a publicly available [Fake News Detection Dataset](https://www.kaggle.com/datasets/subho117/fake-news-detection-using-machine-learning) containing labeled news articles.
-Each record includes:
-Text: The body of the news article.
-Label: A binary label indicating whether the news is fake or real.
+- Each record includes:
+  - Text: The body of the news article.
+  - Label: A binary label indicating whether the news is fake or real.
 
 
 ## Methodology
@@ -61,6 +61,11 @@ The methodology demonstrates a well-thought-out pipeline for fake news detection
   - Results, including prediction probabilities and classification as "Real News" or "Fake News," are displayed on the homepage.
   - The app also calculates and updates metrics for the percentages of fake and real news predictions.
 
+## Data Sources
+- Machine Learning Source:
+  - [Geeks for Geeks](https://www.geeksforgeeks.org/machine-learning-projects/)
+- Code Source:
+  - ChatGPT and GitHub Copilot were used to help with the code in this project.
 
 ## Conclusion
 Fake news articles have distinct linguistic patterns that can help machine learning models classify them, but these patterns often overlap with those in real news.
