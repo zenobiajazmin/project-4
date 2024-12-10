@@ -1,4 +1,5 @@
-# project-4
+# Unmasking Fake News: A Machine Learning Approach
+*Project 4 - Jazmin Austin, Khalia Boone, Heather Bowman, Amie McCall*
 
 ## Overview
 The widespread dissemination of fake news on various platforms poses significant societal risks, leading to misinformation, societal conflicts, and loss of trust. The goal of this project is to develop a machine learning model in Python that can accurately classify news as either real or fake, aiding in the fight against misinformation.
