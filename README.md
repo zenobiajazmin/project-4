@@ -61,7 +61,7 @@ The methodology demonstrates a well-thought-out pipeline for fake news detection
   - Baseline models (Logistic Regression and Decision Tree) are trained and evaluated in **Fake_News_Detection_using_Machine_Learning.ipynb** resulting in 99% accuracy.
   - Iterative optimization and hyperparameter tuning in **Fake_News_Optimized.ipynb** improve model performance resulting in 100% accuracy.
   - Evaluation metrics, including accuracy, precision, recall, F1-score, and confusion matrices, ensure comprehensive assessment.
-- In **Fake_News_Flask.py**, a pre-trained model and TF-IDF vectorizer are deployed for real-time prediction:
+- In **Fake_News_Flask.py**, the saved pre-trained model and TF-IDF vectorizer are deployed for real-time prediction:
   - User input is vectorized, and predictions are rendered with detailed feedback on the web interface.
   - Counters track the proportions of fake and real news predictions dynamically.
 
