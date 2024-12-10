@@ -40,4 +40,5 @@ The proposal leans heavily on Python’s ecosystem, making it accessible and sca
 - These outcomes align with the stated objectives, promising a practical solution to fake news detection.
 
 ## Conclusion
-The proposal effectively addresses the critical issue of fake news through a combination of robust machine learning techniques, thoughtful preprocessing, and actionable insights. By leveraging a well-structured methodology and proven tools, the project is poised to create a scalable and impactful solution. The inclusion of potential deployment indicates a readiness to translate research into practice, fostering a more informed digital ecosystem.
+Fake news articles have distinct linguistic patterns that can help machine learning models classify them, but these patterns often overlap with those in real news.
+This captures the idea of leveraging linguistic patterns for classification while acknowledging the overlap observed in the word cloud analysis.
