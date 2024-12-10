@@ -3,9 +3,13 @@
 ## Overview
 The widespread dissemination of fake news on various platforms poses significant societal risks, leading to misinformation, societal conflicts, and loss of trust. The goal of this project is to develop a machine learning model in Python that can accurately classify news as either real or fake, aiding in the fight against misinformation.
 
+## Hypothesis
+Patterns in word usage, frequency, and structure differ significantly between fake and real news, enabling effective classification through text-based features.
+
 
 ## Dataset
 The use of a publicly available labeled dataset ensures transparency and reproducibility. With text data and binary labels, the dataset is well-suited for supervised learning approaches. This structure simplifies the implementation of machine learning techniques like TF-IDF and classification models. The reliance on labeled data, however, may necessitate attention to class imbalance and potential biases in the dataset.
+
 
 ## Methodology
 ### The methodology demonstrates a well-thought-out pipeline:
